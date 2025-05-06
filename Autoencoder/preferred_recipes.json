@@ -1,0 +1,61 @@
+[
+    {
+      "title": "Spaghetti Bolognese",
+      "ingredients": [
+        "200g spaghetti",
+        "100g minced beef",
+        "1 onion",
+        "2 cloves garlic",
+        "400g canned tomatoes",
+        "2 tbsp olive oil",
+        "salt",
+        "pepper"
+      ],
+      "instructions": [
+        "Boil spaghetti according to package instructions.",
+        "Sauté onion and garlic in olive oil.",
+        "Add minced beef and cook until browned.",
+        "Add canned tomatoes and simmer.",
+        "Season with salt and pepper.",
+        "Serve sauce over spaghetti."
+      ],
+      "instruction_NER": [
+        { "boil": 0.5 },
+        { "sauté": 0.5 },
+        { "add": 0.5 },
+        { "cook": 0.5 },
+        { "season": 0.5 },
+        { "serve": 0.5 }
+      ]
+    },
+    {
+      "title": "Chicken Tikka Masala",
+      "ingredients": [
+        "500g chicken breast",
+        "1 onion",
+        "2 cloves garlic",
+        "1 cup yogurt",
+        "2 tbsp tikka masala paste",
+        "1/2 cup cream",
+        "1 tbsp oil",
+        "salt"
+      ],
+      "instructions": [
+        "Marinate chicken in yogurt and tikka masala paste.",
+        "Sauté onion and garlic in oil.",
+        "Add marinated chicken and cook until done.",
+        "Stir in cream and simmer.",
+        "Season with salt and serve."
+      ],
+      "instruction_NER": [
+        { "marinate": 0.5 },
+        { "sauté": 0.5 },
+        { "add": 0.5 },
+        { "cook": 0.5 },
+        { "stir": 0.5 },
+        { "season": 0.5 },
+        { "serve": 0.5 }
+      ]
+    }
+  ]
+  
